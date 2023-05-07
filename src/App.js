@@ -9,7 +9,7 @@ function App() {
   let listItem = task.length;
   return (
     <div className="w-screen min-h-screen bg-[#1E1E1E] grid items-center">
-      <div className="w-1/3 space-y-5 mx-auto border bg-[#2C2C2C] py-5 pl-2">
+      <div className="w-11/12 max-w-[500px] space-y-5 mx-auto border bg-[#2C2C2C] py-5 pl-2">
         <h1 className="font-sans text-white italic text-4xl font-bold text-center">
           TO-DO NOW
         </h1>
