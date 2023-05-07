@@ -52,12 +52,12 @@ const TodoList = (props) => {
                 </button>
               </form>
             ) : (
-              <p className="font-sans w-11/12 text-base text-white font-medium break-words">
+              <p className="font-sans grow text-base text-white font-medium break-words">
                 {item}
               </p>
             )}
 
-            <div className="space-x-3 w-1/6 flex justify-center items-center">
+            <div className="space-x-3 grow-0 flex justify-center items-center">
               <button onClick={() => removeTodoItem(item)}>
                 <AiFillDelete style={{ fontSize: "1.75rem", color: "white" }} />
               </button>
